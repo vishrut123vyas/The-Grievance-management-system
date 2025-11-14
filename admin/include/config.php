@@ -2,7 +2,7 @@
 define('DB_SERVER','localhost');
 define('DB_USER','root');
 define('DB_PASS' ,'');
-define('DB_NAME', 'StudentGrievance');
+define('DB_NAME', 'grievance_db'); // use your database name here
 $con = mysqli_connect(DB_SERVER,DB_USER,DB_PASS,DB_NAME);
 if (mysqli_connect_errno())
 {
